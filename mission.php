@@ -5,6 +5,8 @@ function releaseBrakes(): void {
 
     // ==========================================
     // 【指示】下の1行を自分の担当トークンを追加せよ！
+    $signal_a = "TRACK-CLEAR-";
+
     // $signal_a = "TRACK-CLEAR-";
     // $signal_b = "BRAKE-APPLIED"
     $signal_b = "BRAKE-APPLIED"; // ← ここを修正せよ！
