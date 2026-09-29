@@ -9,6 +9,9 @@ function releaseBrakes(): void {
     $signal_b = "BRAKE-APPLIED";
     // $signal_a = "TRACK-CLEAR-"; $signal_b = "";
     
+    // 担当A: $signal_a = "TRACK-CLEAR-";
+    $signal_b = "BRAKE-APPLIED";
+    $signal_a = ""; $signal_b = "";
     // ==========================================
 
     $combinedToken = $signal_a . $signal_b;
